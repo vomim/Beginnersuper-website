@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/49dd5671ff.js"></script>
+    <title>Vomimork</title>
+    <style>
+            *{
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+            }
+            body{
+                background: url("images/houi.png" ) no-repeat center; 
+                background-size: cover;
+                width: 100%;
+                height: 100vh;
+            }
+            .side-nav{
+                    position: absolute;
+                    max-width: 150px;
+                    width: 100%;
+                    height: 95%;
+                    background-color: rgba(236, 222, 222, 0.6);
+                    padding-top: 15px;
+                    margin-left: 15px;
+                }
+            
+                .side-nav .logo-img{
+                        width: 100px;
+                        height: 70px;
+                        border-radius: 50%; 
+                        margin-top: 0;
+                        margin-left: 25px;
+                }
+
+                .nav-links li{
+                        list-style: none;
+                        padding: 15px;
+                        display: block;
+                        height: auto;
+                        background-color: white;
+                        width: 100px;
+                        border-radius: 15px;
+                        border: 5px solid rgba(198, 180, 180, 0.6);
+                        margin-left: 15px;
+                        
+                }
+                .nav-links li a{
+                        text-decoration: none;
+                        text-align: center;
+                }
+                .search{
+                        position: absolute;
+                        margin-top: 16%;
+                        margin-left: 40%;
+                        transform: translate(-50,-50);
+                        background-color: rgba(0, 0, 0, 0.3);
+                        max-width: 500px;
+                        width: 100%;
+                        padding: 10px;
+                        border-radius: 15px;
+                        display: flex;
+                        justify-content: space-between;
+                }
+                .search .input{
+                        width: 87%;
+                        padding: 10px 20px;
+                        border: none;
+                        border-radius: 5px;
+                        font-weight: bold;
+                }
+                .searchbtn{
+                        width: 10%;
+                         background-color: rgb(221, 236, 113);
+                         border-radius: 5px;
+                         position: relative;
+                         cursor: pointer;    
+                }
+                .fa-solid{
+                        position: relative;
+                        top: 25%;
+                        left: 40%;
+                }
+
+                h2{
+                        text-align: center;
+                        background-color: antiquewhite;
+                }
+                .grid{
+                        background-color: #dd7e30;
+                }
+                .container{
+                        padding: 10px;
+                        display: block;
+                        position: relative;
+                        margin-top: 22%;
+                        margin-left: 40%;
+                        max-width: 550px;
+                        height: 100%;
+                        float: left;
+                }
+                .container li{
+                        list-style: none;
+                        display: inline-block;
+                        margin: 10px;
+                        background-color: #074f54;
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 50%;
+               }
+               .container li a{
+                       text-decoration: none;
+                       position: absolute;
+                       justify-content: space-around;
+                       padding-top: 10px;
+                       padding-left: 6px;
+                       padding: 15px 0px;
+                       margin: 20px;
+                       color: white;
+                       
+               }
+
+             
+        </style>
+        </head>
+        <body>
+           <div class="wrapper">
+               <h2>Vomimork</h2>
+               
+                <section>
+                 <div class="search">                                   
+                     <input type="text" class="input" placeholder="search">
+                <div class="searchbtn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                </div>
+                </section>
+        
+               <div class="side-nav">
+                            <img src="Presentation1.jpg" class="logo-img" alt="logo">
+                        
+                <ul class="nav-links">
+                <li><a href="#"><i class="fa-solid fa-house-chimney"></i><p>Dashboard</p></a></li>
+                <li><a href="#"><i class="fa-solid fa-message"></i><p>Message</p></a></li>
+                 <li><a href="#"><i class="fa-solid fa-users"></i><p>Users</p></a></li>
+                <li><a href="#"><i class="fa-solid fa-box"></i><p>Rewards</p></a></li>
+                <li><a href="#"><i class="fa-solid fa-flag"></i><p>Reports</p></a></li>
+                 <li><a href="#"><i class="fa-solid fa-screwdriver-wrench"></i><p>Setting</p></a></li>
+                <div class="active"></div>
+                    
+                </ul>
+                </div>
+                <div class="grid">
+              
+                <div class="container">
+                        <ul>
+                        
+                        <li><a href="https://wwww.google.com">Google</a></li>
+                        <li><a href="https://www.facebook.com/">facebook</a></li>
+                        <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjx-Iei7-D7AhURYsAKHYT1ACkQFnoECBYQAQ&url=https%3A%2F%2Fwww.ebay.com%2F&usg=AOvVaw2IUWs7JZelxpS-zydrZoSX">ebay</a></li>
+                        <li><a href="https://www.wikipedia.org/">wiki</a></li>
+                        <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwikgLbD7-D7AhVXTEEAHU17C5QQFnoECAgQAQ&url=https%3A%2F%2Fmail.yahoo.com%2F&usg=AOvVaw3NcTWqRzmTwXCgYWaFRKUV">yahoo</a></li>
+                        <li><a href="">pinterest</a></li>
+                        <li><a href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
+                        <li><a href="https://play.google.com/?hl=tum&tab=w8">Google<br>play</a></li>
+                        <li><a href="">web-proj</a></li>
+                        <li><a href="">contcts</a></li>
+                             
+                        </ul>
+
+                </div>
+        </div>
+        </div>
+       
+       
+               
+         </body>              
+         </html>

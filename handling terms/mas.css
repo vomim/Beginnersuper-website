@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    background: url("images/road_mountain_mountain_road.jpg");
+    width: 100%;
+    height: 100vh;
+}
+.heading{
+    text-align: center;
+    color: blue;
+}
+ .img{
+    position:absolute;
+    top: 10px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+}
+.logo{
+    margin-left: 5px;
+    max-width: 150px;
+    width: 100%;
+    position: fixed;
+    top: 10px;
+    padding-right: 0;
+    background-color: rgb(163, 192, 217);
+    border-radius: 15px;
+}
+nav{
+    position: relative;
+    display: table-cell;
+    top: 40px;
+    width: 150px;
+    height: 500px;
+    padding: 1em;
+    background-color: rgb(167, 222, 214);
+    border-radius: 15px;
+}
+nav li{
+    list-style-type: none;
+    padding:15px;
+    
+}
+
+li a{
+    color: white; 
+    font-size: 17px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+nav a:hover{
+    background-color: rgb(215, 240, 226);
+    color: black;
+}
+.row{
+   display: table-row;
+}
+.inner-content{
+    display: table-cell;
+    width: 100px;
+    height: 100px;
+    padding: 1em;
+    border: 1px dashed #666;
+    position: absolute;
+    bottom: 35%;
+    left: 30%;
+}
+#item1{
+    display: table-cell;
+    width: 100px;
+    height: 100px;
+    padding: 1em;
+    border: none;
+    position: absolute;
+    bottom: 35%;
+    left: 45%;
+}
+#item2{
+    display: table-cell;
+    width: 100px;
+    height: 100px;
+    padding: 1em;
+    border: none;
+    position: absolute;
+    bottom: 35%;
+    left: 60%;
+}
+#item3{
+    display: table-cell;
+    width: 100px;
+    height: 100px;
+    padding: 1em;
+    border: none;
+    position: absolute;
+    bottom: 35%;
+    left: 75%;
+}
+#item{
+    margin-left: 30px;
+}
+
+.header{
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    background: #f0f4f9;
+    border-radius: 50%;
+}
+.item1{
+    position: absolute;
+    top: 23%;
+    left: 55%;
+    font-family: sans-serif;
+    color: rgb(28, 192, 36);
+   
+}
+.item1 #img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+a{
+    text-decoration: none;
+}
+.header img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.wrapper{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50,-50);
+    display: flex;
+    background: rgba(0, 0, 0, 0.6);
+    max-width: 550px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+.wrapper .input{
+    width: 85%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.wrapper .searchbtn{
+    width: 10%;
+    position: relative;
+    background: yellowgreen;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.searchbtn .fa-solid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50,-50);
+    font-size: 18px;
+}
+
+
